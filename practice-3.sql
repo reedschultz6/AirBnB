@@ -13,3 +13,9 @@
 -- | Beverly                |
 
 
+.mode columns
+.headers on
+
+SELECT neighborhood
+FROM listings
+GROUP BY neighborhood;
